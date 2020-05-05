@@ -46,6 +46,9 @@ namespace MedioClinic
 
             // Resolves the dependencies
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+
+            builder.RegisterType<BusinessDependencies>().As<IBusinessDependencies>()
+                .InstancePerRequest();
         }
     }
 }

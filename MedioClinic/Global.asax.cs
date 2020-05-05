@@ -2,10 +2,9 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Optimization;
 using System.Web.Routing;
-
 using Kentico.PageBuilder.Web.Mvc;
 using Kentico.Web.Mvc;
-
+using MedioClinic.App_Start; //this is not called in the finished files
 using MedioClinic.Utils;
 
 namespace MedioClinic

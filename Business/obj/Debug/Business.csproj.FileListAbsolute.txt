@@ -1,0 +1,1 @@
+C:\inetpub\wwwroot\Kentico12\Business\obj\Debug\Business.csprojAssemblyReference.cache

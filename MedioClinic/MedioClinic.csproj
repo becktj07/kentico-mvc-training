@@ -639,7 +639,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\icons.css" />
@@ -796,17 +795,35 @@
     <Compile Include="App_Start\ApplicationConfig.cs" />
     <Compile Include="App_Start\AutofacConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\ModelBindingConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Config\AppConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Profile\CommonUserViewModel.cs" />
+    <Compile Include="Models\Profile\DoctorViewModel.cs" />
+    <Compile Include="Models\Profile\IUserViewModel.cs" />
+    <Compile Include="Models\Profile\PatientViewModel.cs" />
+    <Compile Include="Models\Profile\ProfileManagerResultStates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\WebAssemblyInfo.cs" />
+    <Compile Include="Utils\AccountManager.cs" />
+    <Compile Include="Utils\BaseIdentityManager.cs" />
+    <Compile Include="Utils\ErrorHelper.cs" />
+    <Compile Include="Utils\FileManager.cs" />
+    <Compile Include="Utils\IAccountManager.cs" />
+    <Compile Include="Utils\IErrorHelper.cs" />
+    <Compile Include="Utils\IFileManager.cs" />
+    <Compile Include="Utils\IProfileManager.cs" />
+    <Compile Include="Utils\LandingPageTemplateFilter.cs" />
     <Compile Include="Utils\MultiCultureMvcRouteHandler.cs" />
+    <Compile Include="Utils\ProfileManager.cs" />
     <Compile Include="Utils\SiteContextService.cs" />
     <Compile Include="Utils\SiteCultureConstraint.cs" />
+    <Compile Include="Utils\UserViewModelBinder.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config">

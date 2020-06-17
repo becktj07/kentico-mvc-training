@@ -1,1 +1,2 @@
 C:\inetpub\wwwroot\Kentico12\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\inetpub\wwwroot\Kentico-MVC-Training\Business\obj\Debug\Business.csprojAssemblyReference.cache

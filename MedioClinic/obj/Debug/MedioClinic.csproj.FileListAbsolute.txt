@@ -482,3 +482,6 @@ C:\inetpub\wwwroot\Kentico12\MedioClinic\bin\Autofac.Integration.Mvc.xml
 C:\inetpub\wwwroot\Kentico12\MedioClinic\bin\Microsoft.Bcl.AsyncInterfaces.xml
 C:\inetpub\wwwroot\Kentico12\MedioClinic\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\inetpub\wwwroot\Kentico12\MedioClinic\bin\System.Threading.Tasks.Extensions.xml
+C:\inetpub\wwwroot\Kentico-MVC-Training\MedioClinic\obj\Debug\MedioClinic.csprojAssemblyReference.cache
+C:\inetpub\wwwroot\Kentico-MVC-Training\MedioClinic\obj\Debug\MedioClinic.dll
+C:\inetpub\wwwroot\Kentico-MVC-Training\MedioClinic\obj\Debug\MedioClinic.pdb

@@ -47,24 +47,24 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 		#region "Properties"
 
 		/// <summary>
-		/// ContactID.
+		/// CompanyID.
 		/// </summary>
 		[DatabaseIDField]
-		public int ContactID
+		public int CompanyID
 		{
 			get
 			{
-				return ValidationHelper.GetInteger(GetValue("ContactID"), 0);
+				return ValidationHelper.GetInteger(GetValue("CompanyID"), 0);
 			}
 			set
 			{
-				SetValue("ContactID", value);
+				SetValue("CompanyID", value);
 			}
 		}
 
 
 		/// <summary>
-		/// Company Name.
+		/// Company name.
 		/// </summary>
 		[DatabaseField]
 		public string CompanyName
@@ -132,7 +132,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 		/// <summary>
-		/// Country.
+		/// Zip code.
 		/// </summary>
 		[DatabaseField]
 		public string ZipCode
@@ -149,7 +149,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 		/// <summary>
-		/// Phone Number.
+		/// Phone number.
 		/// </summary>
 		[DatabaseField]
 		public string PhoneNumber
@@ -218,23 +218,23 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// ContactID.
+			/// CompanyID.
 			/// </summary>
-			public int ContactID
+			public int ID
 			{
 				get
 				{
-					return mInstance.ContactID;
+					return mInstance.CompanyID;
 				}
 				set
 				{
-					mInstance.ContactID = value;
+					mInstance.CompanyID = value;
 				}
 			}
 
 
 			/// <summary>
-			/// Company Name.
+			/// Company name.
 			/// </summary>
 			public string Name
 			{
@@ -298,7 +298,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// Country.
+			/// Zip code.
 			/// </summary>
 			public string ZipCode
 			{
@@ -314,7 +314,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// Phone Number.
+			/// Phone number.
 			/// </summary>
 			public string PhoneNumber
 			{

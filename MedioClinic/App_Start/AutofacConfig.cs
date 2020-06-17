@@ -5,9 +5,9 @@ using System.Web.Mvc;
 using Autofac;
 using Autofac.Integration.Mvc;
 using Autofac.Integration.WebApi;
-using Business.DependencyInjection;
-using Business.Services;
-using Business.Services.Context;
+//using Business.DependencyInjection;
+//using Business.Services;
+//using Business.Services.Context;
 using MedioClinic.Config;
 
 namespace MedioClinic

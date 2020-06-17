@@ -81,7 +81,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 		/// <summary>
-		/// Longiture.
+		/// Longitude.
 		/// </summary>
 		[DatabaseField]
 		public double Longitude
@@ -98,7 +98,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 		/// <summary>
-		/// Tooltip Text.
+		/// Tooltip text.
 		/// </summary>
 		[DatabaseField]
 		public string Tooltip
@@ -182,7 +182,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// Longiture.
+			/// Longitude.
 			/// </summary>
 			public double Longitude
 			{
@@ -198,7 +198,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// Tooltip Text.
+			/// Tooltip text.
 			/// </summary>
 			public string Tooltip
 			{

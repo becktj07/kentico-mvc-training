@@ -64,7 +64,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 		/// <summary>
-		/// First Name.
+		/// First name.
 		/// </summary>
 		[DatabaseField]
 		public string FirstName
@@ -81,7 +81,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 		/// <summary>
-		/// Last Name.
+		/// Last name.
 		/// </summary>
 		[DatabaseField]
 		public string LastName
@@ -132,7 +132,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 		/// <summary>
-		/// Specialty.
+		/// Doctor specialty.
 		/// </summary>
 		[DatabaseField]
 		public string Specialty
@@ -166,7 +166,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 		/// <summary>
-		/// Emergency Shift.
+		/// Emergency shift.
 		/// </summary>
 		[DatabaseField]
 		public int EmergencyShift
@@ -234,7 +234,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// First Name.
+			/// First name.
 			/// </summary>
 			public string FirstName
 			{
@@ -250,7 +250,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// Last Name.
+			/// Last name.
 			/// </summary>
 			public string LastName
 			{
@@ -294,7 +294,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// Specialty.
+			/// Doctor specialty.
 			/// </summary>
 			public string Specialty
 			{
@@ -326,7 +326,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// Emergency Shift.
+			/// Emergency shift.
 			/// </summary>
 			public int EmergencyShift
 			{

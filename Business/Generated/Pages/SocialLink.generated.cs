@@ -81,7 +81,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 		/// <summary>
-		/// Link Url.
+		/// Link url.
 		/// </summary>
 		[DatabaseField]
 		public string Url
@@ -182,7 +182,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// Link Url.
+			/// Link url.
 			/// </summary>
 			public string Url
 			{

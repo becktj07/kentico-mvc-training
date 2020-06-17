@@ -98,7 +98,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 		/// <summary>
-		/// Link Button Text.
+		/// Link button text.
 		/// </summary>
 		[DatabaseField]
 		public string Button
@@ -198,7 +198,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// Link Button Text.
+			/// Link button text.
 			/// </summary>
 			public string Button
 			{

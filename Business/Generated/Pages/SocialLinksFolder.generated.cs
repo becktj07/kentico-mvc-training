@@ -64,7 +64,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 		/// <summary>
-		/// Folder Name.
+		/// Folder name.
 		/// </summary>
 		[DatabaseField]
 		public string FolderName
@@ -132,7 +132,7 @@ namespace CMS.DocumentEngine.Types.MedioClinic
 
 
 			/// <summary>
-			/// Folder Name.
+			/// Folder name.
 			/// </summary>
 			public string FolderName
 			{

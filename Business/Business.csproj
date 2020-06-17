@@ -444,60 +444,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="DependencyInjection\BusinessDependencies.cs" />
-    <Compile Include="DependencyInjection\CmsRegistrationSource.cs" />
-    <Compile Include="DependencyInjection\IBusinessDependencies.cs" />
-    <Compile Include="Identity\Extensions\UserExtensions.cs" />
-    <Compile Include="Identity\Helpers\UserHelper.cs" />
-    <Compile Include="Identity\IMedioClinicSignInManager.cs" />
-    <Compile Include="Identity\IMedioClinicUserManager.cs" />
-    <Compile Include="Identity\IMedioClinicUserStore.cs" />
-    <Compile Include="Identity\MedioClinicSignInManager.cs" />
-    <Compile Include="Identity\MedioClinicUserManager.cs" />
-    <Compile Include="Identity\MedioClinicUserStore.cs" />
-    <Compile Include="Identity\Models\Gender.cs" />
-    <Compile Include="Identity\Models\MedioClinicUser.cs" />
-    <Compile Include="Identity\Models\Roles.cs" />
-    <Compile Include="Identity\Proxies\IKenticoUserStore.cs" />
-    <Compile Include="Identity\Proxies\KenticoUserStore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\Airport\AirportRepository.cs" />
-    <Compile Include="Repository\Airport\IAirportRepository.cs" />
-    <Compile Include="Repository\Avatar\AvatarRepository.cs" />
-    <Compile Include="Repository\Avatar\IAvatarRepository.cs" />
-    <Compile Include="Repository\BaseRepository.cs" />
-    <Compile Include="Repository\Company\CompanyRepository.cs" />
-    <Compile Include="Repository\Company\CompanyServiceRepository.cs" />
-    <Compile Include="Repository\Company\ICompanyRepository.cs" />
-    <Compile Include="Repository\Company\ICompanyServiceRepository.cs" />
-    <Compile Include="Repository\Contact\ContactSectionRepository.cs" />
-    <Compile Include="Repository\Contact\IContactSectionRepository.cs" />
-    <Compile Include="Repository\Doctor\DoctorRepository.cs" />
-    <Compile Include="Repository\Doctor\DoctorSectionRepository.cs" />
-    <Compile Include="Repository\Doctor\IDoctorRepository.cs" />
-    <Compile Include="Repository\Doctor\IDoctorSectionRepository.cs" />
-    <Compile Include="Repository\Forms\FormItemRepository.cs" />
-    <Compile Include="Repository\Forms\IFormItemRepository.cs" />
-    <Compile Include="Repository\Forms\IFormViewModel.cs" />
-    <Compile Include="Repository\Home\HomeSectionRepository.cs" />
-    <Compile Include="Repository\Home\IHomeSectionRepository.cs" />
-    <Compile Include="Repository\IRepository.cs" />
-    <Compile Include="Repository\LandingPage\ILandingPageRepository.cs" />
-    <Compile Include="Repository\LandingPage\LandingPageRepository.cs" />
-    <Compile Include="Repository\Map\IMapRepository.cs" />
-    <Compile Include="Repository\Map\MapRepository.cs" />
-    <Compile Include="Repository\MediaLibrary\IMediaLibraryRepository.cs" />
-    <Compile Include="Repository\MediaLibrary\MediaLibraryRepository.cs" />
-    <Compile Include="Repository\Menu\IMenuRepository.cs" />
-    <Compile Include="Repository\Menu\MenuRepository.cs" />
-    <Compile Include="Repository\Social\ISocialLinkRepository.cs" />
-    <Compile Include="Repository\Social\SocialLinkRepository.cs" />
-    <Compile Include="Services\BaseService.cs" />
-    <Compile Include="Services\Context\ISiteContextService.cs" />
-    <Compile Include="Services\IService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
